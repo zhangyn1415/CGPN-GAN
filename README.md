@@ -17,8 +17,8 @@ QuiltNet (https://huggingface.co/wisdomik/QuiltNet-B-32)
 
 ## Quick Start
 
-#### 1.Textual description generation
-### For the PanNuke dataset, run the preprocessing script:
+## 1.Textual description generation
+## For the PanNuke dataset, run the preprocessing script:
  preprocess.py 
 
 ## 2.Training
