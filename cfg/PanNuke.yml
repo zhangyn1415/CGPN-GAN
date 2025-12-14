@@ -1,0 +1,33 @@
+dataset_name: 'PanNuke'
+data_dir: '/home/data/PanNuke-data/'
+text_name: 'PanNuke_text.txt'
+
+imsize: 256
+z_dim: 100
+cond_dim: 512
+manual_seed: 100
+cuda: True
+
+clip4text: 'ViT-B-32'
+
+stamp: 'normal'
+state_epoch: 0
+max_epoch: 3005
+batch_size: 16
+gpu_id: 0
+nf: 64
+ch_size: 3
+
+scaler_min: 64
+growth_interval: 2000
+lr_g: 0.0001
+lr_d: 0.0004
+lambda_gp: 2.0
+lambda_fm: 1.0
+lambda_cs: 2.5
+
+gen_interval: 1
+test_interval: 5
+save_interval: 5
+
+sample_times: 1
